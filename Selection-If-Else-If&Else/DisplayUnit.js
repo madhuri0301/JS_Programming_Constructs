@@ -1,4 +1,5 @@
-const readline = require('readline-sync'); // Pulls In All The Functions that Allows Us To Get data From User
+// Pulls In All The Functions that Allows Us To Get data From User And Put It To The Variable Input
+const readline = require('readline-sync'); 
 
 //readline.question : this Method Is Used To Ask The Question From User
 let num = readline.question("Enter The Number Like 10, 100, 1000 , 10000,... : "); 
